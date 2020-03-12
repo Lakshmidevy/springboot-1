@@ -67,7 +67,7 @@
 	<distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://13.234.76.254:8081/nexus/content/repositories/snapshots</url>
+    <url>http://13.233.145.203:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
@@ -83,9 +83,9 @@
 				<version>2.21.0</version>
 			</plugin>
 			<plugin>
-                       	        <groupId>org.codehaus.mojo</groupId>
+                       	        <groupId>org.sonarsource.scanner.maven</groupId>
                                 <artifactId>sonar-maven-plugin</artifactId>
-                                <version>3.7.0</version>
+                                <version>3.7.0.1746</version>
                         </plugin>
 			<plugin>
 				<groupId>org.jacoco</groupId>
